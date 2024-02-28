@@ -1,0 +1,82 @@
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/bgimg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #bbd20e;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd20e;
+    text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000;
+}
+
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4f3362;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #6b4387;
+}
+
+#message {
+    display: none;
+    font-weight: bold;
+}
