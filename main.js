@@ -17,7 +17,7 @@ function checkTime() {
     const currentHour = now.getUTCHours();
     const currentMinutes = now.getMinutes();
 
-    if ((currentHour === 0 || currentHour === 12) && currentMinutes >= 0 && currentMinutes <= 15){
+    if ((currentHour === 0 || currentHour === 22) && currentMinutes >= 0 && currentMinutes <= 15){
         // Show the form
         container.classList.add('container');
         if (!document.getElementById('passwordForm')) {
